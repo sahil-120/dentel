@@ -1,0 +1,85 @@
+.content-boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.content-boxes .banner-max-width .price-list .product-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-boxes .banner-max-width .price-list .product-image img {
+  width: auto;
+}
+
+.content-boxes .banner-max-width .price-list .review {
+  margin-top: 75px !important;
+}
+
+.content-boxes .banner-max-width .price-list .review .star-image img {
+  width: 15px;
+  margin-bottom: 10px;
+}
+
+.content-boxes .banner-max-width .price-list .review .star-image span {
+  font-size: 15px;
+  position: absolute;
+  padding-left: 10px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-heading h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-heading p {
+  margin-bottom: 10px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-heading .price {
+  font-weight: 700;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec {
+  line-height: 1.9 !important;
+  padding-top: 40px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec .short-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec .short-flex img {
+  width: 20px;
+  position: absolute;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec .short-flex .common p.paragraph {
+  margin-left: 45px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec img {
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.content-boxes .banner-max-width .price-list .review .short-dec p {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=nesting.css.map */
